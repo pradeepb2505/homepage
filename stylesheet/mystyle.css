@@ -1,0 +1,113 @@
+.nav{
+    background-color: black;
+}
+
+.lrsection{
+    background-color: gray;
+    height: 100%;
+}
+.box {
+    float: left;
+    padding: 1em;
+    text-align: center;
+}
+.cleared{
+    clear: left;
+}
+.container{
+    max-width: 2000px;
+    /* max-height: 3000px; */
+}
+
+.active{
+    background-color: grey;
+}
+
+.nav-pills .nav-link.active{
+    background-color: rgba(54, 54, 54, 0.884);
+    border-radius: 0%;
+}
+
+.ads{
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: grey;
+    text-align: center;
+}
+
+.ads1{
+    margin-top: 5%;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+}
+.nav-link{
+    color: white;
+}
+
+.nav-item:active{
+    background-color:#ffff;
+}
+
+h1 {
+    text-align: center;    
+}
+
+h2 {
+    text-align: center;    
+}
+
+.mainblock{
+    padding: 10px;
+    background-color:rgba(175, 202, 184, 0.623);
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.subblock{
+    padding: 20px;
+    background-color:rgb(247, 254, 255);
+    border-radius: 10px;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.box2 {
+    float: left;
+    padding: 1em;
+    text-align: center;
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    width: 80px;
+    height: 80px;
+}
+
+.title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 1px;
+}
+
+.subtitle{
+    font-family: 'Cambria', 'Cochin', 'Georgia', Times, 'Times New Roman', serif;
+    font-size:larger;
+    margin: 0px;
+}
+
+.date{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    margin: 0px;
+}
+
+.location{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    margin: 0px;
+}

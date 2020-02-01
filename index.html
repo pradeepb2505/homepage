@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Pradeep HomePage</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="stylesheet/mystyle.css">
+  <link rel="stylesheet" href="https://lipis.github.io/bootstrap-social/bootstrap-social.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <meta name="description" content="Pradeep Balasubramani HomePage">
+  <meta name="author" content="Pradeep Balasubramani">
+  <meta name="keywords" content="Pradeep Balasubramani; pradeep b; pradeep; UTD; MS; Computer Science; Data Science; Machine Learning; resume; ">
+  <meta name="viewport">
+</head>
+
+<body>
+  <header>
+    
+    <nav class="navbar navbar-expand-lg  nav">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="color: white;">Menu</span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">AboutMe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#honors">Honors/Awards</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#leadership">Leadership</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+     
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-2 bg-dark">
+        <ul style="list-style: none; margin-top: 20px; padding: 0%;">
+          <li><button class="btn btn-block btn-social btn-linkedin " onclick="window.location.href = 'http://www.linkedin.com/in/pradeep-balasubramani';">
+            <span class="fa fa-linkedin"></span> LinkedIn
+          </button></li>
+          <li><button class="btn btn-block btn-social btn-google" onclick="location.href='mailto:pradeep.b2505@gmail.com';">
+            <span class="fa fa-google"></span> pradeep.b2505@gmail.com
+          </button></li>
+          <li><button class="btn btn-block btn-social btn-facebook" onclick="window.location.href = 'https://www.facebook.com/pradeepb2505';">
+            <span class="fa fa-facebook"></span> Facebook
+          </button></li>
+          <li><button class="btn btn-block btn-social btn-github" onclick="window.location.href = 'https://www.facebook.com/pradeepb2505';">
+            <span class="fa fa-github"></span> Github
+          </button></li>
+          <li><button class="btn btn-block btn-social btn-reddit" onclick="window.location.href = 'tel:2146044753';">
+            <span class="fa fa-phone"></span> 214-604-4753
+          </button></li>
+        </ul>
+        
+      </div>
+      <div class="col-8">
+        <div class="mainblock cleared" id="about" style="padding-left: 150px;padding-right: 150px; text-align: center;">
+          <div class="box" ><img src="img/pradeep.jpg" alt="pradeep_picture" style="width:150px;height:150px; border-radius: 100%;"></div>
+          <h2>Pradeep Balasubramani</h2>
+          <p>Self-determined Graduate student from UT Dallas with strong ability in Statistical Methods, Analytical Skills, Problem Solving & Optimization;seeking to pursue a career in the challenging field of core Machine Learning, Deep Learning and Data Science aimed at solving real-world and business problems.
+          </p>
+          <form method="get" action="resume/resume.pdf">
+            <button type="submit" class="btn btn-info"><i class="fa fa-download" ></i> Download Resume</button>
+         </form>
+        </div>
+        
+        <div class="mainblock cleared" id="experience" >
+          <h2>Experience</h2>
+          <div class="subblock">
+            <div class="box2"><img src="img/accenture.png" alt="accenture" class="logo"></div>
+            <p class="title">Application Development Associate</p>
+            <p class="subtitle">Accenture</p>
+            <p class="date">May 2018 - June 2019</p>
+            <p class="location">Bangalore, India</p>
+            <div class="description">
+              <ul>
+                <li>Data Analysis and dashboard creation through Splunk and web development for service integration of end to end monitoring of data within different systems.</li>
+                <li>Brainstorming with leaderships of the company to build an efficient architecture for service integration.</li>
+                <li>Automation of manual tasks using Python , Automation Anywhere, UIPath</li>
+                <li>Data mining and scraping of system generated data through Python.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="subblock">
+            <div class="box2"><img src="img/iit.png" alt="iit" class="logo"></div>
+            <p class="title">Intern</p>
+            <p class="subtitle">Indian Institute of Technology</p>
+            <p class="date">April 2017 - June 2017</p>
+            <p class="location">Mumbai, India</p>
+            <div class="description">
+              <ul>
+                <li>Generic IoT Platform for Analytics</li>
+                <li>Design and Architecture for Hardware-software implementation of the generic platform to collect and store real-time data from different IoT devices that are used for data visualization, analysis and actuation.</li>
+                <li>Used by Domestic users, Data Analyst and Machine learning experts to develop featured application and to perform analysis on the collected sensor data.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="subblock">
+            <div class="box2"><img src="img/nitte.png" alt="nitte" class="logo"></div>
+            <p class="title">Intern</p>
+            <p class="subtitle">NMAM Institute of Technology</p>
+            <p class="date">Jan 2017 - March 2017</p>
+            <p class="location">Nitte, India</p>
+            <div class="description">
+              <ul>
+                <li>Internship at NET Cooperative Society,</li>
+                <li>Information System Application</li>
+                <li>Design and development of Management Information System</li>
+                <li>Application using .NET frameworks and SQL Databases.</li>
+                <li>Includes bill, stock and inventory management features.</li>
+              </ul>
+            </div>
+          </div> 
+        </div>
+        
+        <div class="mainblock cleared" id="education" style="padding-left: 150px;padding-right: 150px; text-align: center;">
+          <h2>Education</h2>
+          <div class="subblock">
+            <p class="title">Master of Science in Computer Science</p>
+            <p class="subtitle">The University of Texas at Dallas</p>
+            <p class="date">August 2019 - May 2021</p>
+            <p class="location">Dallas, Texas, USA</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Bachelor of Engineering in Computer Science & Engineering</p>
+            <p class="subtitle">NMAM Institute of Technology</p>
+            <p class="date">August 2014 - May 2018</p>
+            <p class="location">Nitte, Karnataka, India</p>
+          </div>
+        </div>
+        
+        <div class="mainblock cleared" id="publications" style="padding-left: 150px;padding-right: 150px; text-align: center;">
+          <h2>Publications</h2>
+          <div class="subblock">
+            <p class="title">Analysis of Customer Churn prediction in Logistic Industry using Machine Learning</p>
+            <p class="subtitle">IJSRP</p>
+            <p class="location">(ISSN: 2250-3153)<br><a href="http://www.ijsrp.org/research-paper-1117.php?rp=P716953">http://www.ijsrp.org/research-paper-1117.php?rp=P716953</a></p>
+          </div>
+          <div class="subblock">
+            <p class="title">Generic IoT platform for Analytics in Agriculture</p>
+            <p class="subtitle">Springer Nature book “Studies in Big Data, Internet of Things and Analytics for Agriculture, Volume 2”</p>
+            <p class="location">978-981-15-0662-8, 487204_1_En, (Chapter 11)<br><a href="https://link.springer.com/chapter/10.1007%2F978-981-15-0663-5_11">https://link.springer.com/chapter/10.1007%2F978-981-15-0663-5_11</a></p>
+          </div>
+        </div>
+        
+        <div class="mainblock cleared" id="projects" style="padding-left: 150px;padding-right: 150px; text-align: center;">
+          <h2>Projects</h2>
+          <div class="subblock">
+            <p class="title">Text Classification</p>
+            <p class="subtitle">Deep Learning model to categorize customer support queries in the context of a public service provider in India using Keras and TensorFlow; achieved accuracy of 82%</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Diversified Home Automation using Voice Control and AR</p>
+            <p class="subtitle">Diversified Home Automation System’ is a computer-based system that can accepts voice to direct commands and processes them and also uses Augmented Reality for detecting and controlling appliances.</p>
+            <br>
+            <button type="button" class="btn btn-info" onclick="window.location.href='https://devpost.com/software/diversified-home-automation-using-voice-control-and-ar'">Try it out</button>
+          </div>
+          <div class="subblock">
+            <p class="title">Hydro Care</p>
+            <p class="subtitle">descriptionWater scheduling system based on the water requirement density of the region through ML and IoT. It also gives the daily statistics of water consumed by the users and total water quantity available in the region for usage.
+              <br>
+              <button type="button" class="btn btn-info" onclick="window.location.href='https://github.com/pradeepb2505/pandas'">Try it out</button>
+            </p>
+            
+          </div>
+          <div class="subblock">
+            <p class="title">Hypothesis Testing</p>
+            <p class="subtitle">descriptionData Analysis of structured and unstructured data from various sources for Hypothesis Testing to prove that mean house price in university towns of USA is affected by recession.
+            </p>
+          </div>
+          <div class="subblock">
+            <p class="title">Intelligent Platform for Swarm Robotics</p>
+            <p class="subtitle">Open source platform that allows multi-robot collaboration using Image processing, AI and IoT.</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Predictive analysis of Customer Churning</p>
+            <p class="subtitle">Developed an AI prototype to analyze and predict customer churn and the probability to win an opportunity at an early stage of the customer engagement using a variety of data sources.</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Proximity Based File Sharing System</p>
+            <p class="subtitle">A P2P Application to share and transfer different files across various android devices through Wi-Fi.</p>
+            <br>
+            <button type="button" class="btn btn-info" onclick="window.location.href='https://github.com/pradeepb2505?tab=repositories'">Try it out</button>
+          </div>
+          <div class="subblock">
+            <p class="title">SkyMaster</p>
+            <p class="subtitle">Need to track flights in more detail than what the airport screens are telling you? Need a smart assistant for suggesting nearby tourist attractions during your next travel? Need a recommendation regarding the available airports nearby? Need someone to make you feel at home? SkyMaster does all of that for you. Above all, SkyMaster uses Natural Language Processing to ease user experience.</p>
+            <br>
+            <button type="button" class="btn btn-info" onclick="window.location.href='https://devpost.com/software/skymaster'">Try it out</button>
+          </div>
+          <div class="subblock">
+            <p class="title">Smart Shopper</p>
+            <p class="subtitle">An IOT and ML based shopping system that assist the shoppers for purchasing in super market. Navigates user to the location of a product and RFID sensors to automatically add user’s products to the bill.</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Steganography method of Image Encryption and Decryption</p>
+            <p class="subtitle">A tool developed using Python that hides a .zip file inside an image file.</p>
+          </div>
+        </div>
+        
+        <div class="mainblock cleared" id="honors" style="padding-left: 150px;padding-right: 150px; text-align: center;">
+          <h2>Honors/Awards</h2>
+          <div class="subblock">
+            <p class="title">Hackathon Wins</p>
+            <p class="subtitle">HackUTD VI, Pandas Hack, Smart India Hackathon, Wonder Coder (Mentor), IBNC, 20+ Coding Challenges</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Hackathon Finalist</p>
+            <p class="subtitle">DEFI Hackathon, UnitedByHCL, Google India Hackathon, HackUTA</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Best Outgoing Student</p>
+            <p class="subtitle">Awarded for students with distinguished achievement in the Department of Computer Science & Engineering and the recipient of Sanjeeth Shetty Leaders Fellowship Award</p>
+          </div>
+          <div class="subblock">
+            <p class="title">SAKURA Student Exchange Program</p>
+            <p class="subtitle">(One among the top 10 students selected) @Ritsumeikan University, Japan on ‘Emerging Technologies and Advances in Artificial Intelligence’ both in India and Japan</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Academic Excellence Award</p>
+            <p class="subtitle">Awarded by Indus Foundation, USA in collaboration with Skill India, TV9</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Coursera Specialization</p>
+            <p class="subtitle">Deep Learning, Machine Learning, Data Science, Web Development</p>
+          </div>
+          
+        </div>
+        
+        <div class="mainblock cleared" id="leadership" style="padding-left: 150px;padding-right: 150px; text-align: center;">
+          <h2>Leadership</h2>
+          <div class="subblock">
+            <p class="title">Project Manager</p>
+            <p class="subtitle">Developer Student Club, UTD</p>
+          </div>
+          <div class="subblock">
+            <p class="title">President</p>
+            <p class="subtitle">ACM Student Chapter, IoT Club ; Mentored 15 student projects in the field of AI, ML, DS, IoT, Web. Established Google Applied CS using Android, Mozilla Club & Google Developer Student Club @ ACM</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Workshops Conducted</p>
+            <p class="subtitle">Python Programming, Modelling and Animation, Guest Talk on IoT</p>
+          </div>
+          <div class="subblock">
+            <p class="title">Founder & CEO</p>
+            <p class="subtitle">AquaCare and Smart Shoppers – Govt. of Karnataka seed funded start-up projects</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-2 bg-dark">
+        <div class="container ads">
+          <h2 style="color:white">Skills</h2>
+          <div class="container ads1">
+            <ul style="list-style: none; padding: 0%;">
+              <li>Python</li>
+              <li>R</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>C/C++</li>
+              <li>C#</li>
+            </ul>
+          </div>
+          <div class="container ads1">
+            <ul style="list-style: none; padding: 0%;">
+              <li>AngularJS</li>
+              <li>NodeJS</li>
+              <li>ReactJS </li>
+              <li>Unix</li>
+            </ul>
+          </div>
+          <div class="container ads1">
+            <ul style="list-style: none; padding: 0%;">
+              <li>Tensorflow</li>
+              <li>PyTorch</li>
+              <li>Keras</li>
+              <li>Pandas</li>
+              <li>Numpy</li>
+              <li>Seaborn</li>
+              <li>Matplotlib</li>
+            </ul>
+          </div>
+          <div class="container ads1">
+            <ul style="list-style: none; padding: 0%;">
+              <li>Linear Algebra</li>
+              <li>Statistics</li>
+              <li>Multivariable Calculus</li>
+            </ul>
+          </div>
+          <div class="container ads1">
+            <ul style="list-style: none; padding: 0%;">
+              <li>Android Studio</li>
+              <li>Unity</li>
+              <li>MicroStrategy</li>
+              <li>Kibana</li>
+              <li>Splunk</li>
+              <li>Kafka</li>
+            </ul>
+          </div>
+          <div class="container ads1">
+            <ul style="list-style: none; padding: 0%;">
+              <li>RaspberryPi</li>
+              <li>Adruino</li>
+              <li>MicroStrategy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="card-footer " style="text-align: center; background-color: black; color: white;">
+    Designed by Pradeep
+  </div>
+</body>
+
+</html>
+
