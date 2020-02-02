@@ -59,7 +59,7 @@ h2 {
 }
 
 .mainblock{
-    padding: 10px;
+    padding: 2%;
     background-color:rgba(175, 202, 184, 0.623);
     border-radius: 10px;
     overflow: auto;
@@ -68,7 +68,7 @@ h2 {
 }
 
 .subblock{
-    padding: 20px;
+    padding: 2%;
     background-color:rgb(247, 254, 255);
     border-radius: 10px;
     overflow: auto;
